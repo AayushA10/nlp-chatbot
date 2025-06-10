@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "What's up?"],
+      "responses": ["Hello!", "Hi, how can I assist?", "Hey there!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodnight", "Later"],
+      "responses": ["Goodbye!", "Take care!", "See you again soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Support"],
+      "responses": ["Of course! What do you need help with?", "Sure, I'm here to assist you."]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": ["What's your name?", "Who are you?", "Can you tell me your name?"],
+      "responses": ["I'm your friendly chatbot!", "I'm a custom NLP bot built by Aayush Anand."]
+    },
+    {
+      "tag": "capital_india",
+      "patterns": ["What's the capital of India?", "Capital of India", "Tell me India's capital"],
+      "responses": ["The capital of India is New Delhi."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who built you?", "Who created you?"],
+      "responses": ["I was created by Aayush Anand as a custom NLP project."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why don’t programmers like nature? It has too many bugs.", "Debugging: Being the detective in a crime movie where you are also the murderer."]
+    }
+  ]
+}
